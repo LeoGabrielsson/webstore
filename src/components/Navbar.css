@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgreen;
+    background-color: var(--color-nav);
     padding-left: var(--gutter);
     padding-left: var(--gutter);
 }

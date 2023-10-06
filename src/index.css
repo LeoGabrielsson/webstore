@@ -1,7 +1,11 @@
 :root {
-  --color-bg: #ffffff;
-  --color-fg: #000000;
-  --color-accent: #5452d5;
+  --color-bg: #e2e1e6;
+  --color-fg: #424149;
+  --color-nav: #30B03D;
+  --color-accent: #63B030;
+  --color-foot: #3a3a3a;
+
+
   --space-xs: clamp(0.75rem, 0.69rem + 0.29vw, 0.9375rem);
   --space-s: clamp(1rem, 0.92rem + 0.39vw, 1.25rem);
   --space-m: clamp(1.5rem, 1.38rem + 0.58vw, 1.875rem);
