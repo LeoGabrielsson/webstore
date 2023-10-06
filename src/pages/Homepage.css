@@ -5,3 +5,80 @@
 .CTA {
     /* height: 100rem; */
 }
+
+
+.bestProducts {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Product card styles */
+.pCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    max-width: 300px;
+}
+
+
+.pImage {
+    width: 100%;
+    height: auto;
+}
+
+.pDetails {
+    padding: 10px;
+    text-align: center;
+}
+
+.pTitle {
+    font-size: var(--size-step-1);
+    font-weight: bold;
+    margin: 0;
+}
+
+.pDescription {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.pPrice {
+    font-size: var(--size-step-1);
+    font-weight: bold;
+    color: #ff5733;
+    margin: 5px 0;
+}
+
+.add-to-cart {
+    background-color: #192a56;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+    transform: translateY(-2px);
+}
+
+.add-to-cart:hover {
+    background-color: #0c1532;
+}
+
+@media (max-width: 32rem) {
+    .bestProducts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
