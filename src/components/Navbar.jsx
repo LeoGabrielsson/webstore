@@ -18,7 +18,7 @@ function Navbar() {
 
             <div className='navItem navBtns'>
                 <Link to="/">Home</Link>
-                <Link to="/products">Our Products</Link>
+                <Link to="/products">Products</Link>
                 <Link to="/your-cart"> <img className='cart' src="/src/imgs/B).png" alt="Bark & Bowtie Logo" /> </Link>
             </div>
         </nav>
