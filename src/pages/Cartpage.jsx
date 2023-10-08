@@ -3,17 +3,20 @@ import "./Cartpage.css"
 function Cartpage() {
     return (
         <div className='mainSite'>
-            <div className="store">
-                <div>
-                    Lorem
+        <div className="cart">
+            <section className="pInCart">
+                <img className="pImage" src="bb.png" alt="Product Name" />
+                <div className="pDetails">
+                    <h4 className="pTitle">Product Name</h4>
+                    <p className="pDescription">Product description goes here.</p>
+                    <p className="pPrice">$99.99</p>
+                    <button className="siteButton">Remove Item</button>
                 </div>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nisi provident suscipit illum, magni sint voluptatibus distinctio optio assumenda aspernatur quisquam voluptatem atque. Possimus, minima excepturi pariatur sequi atque quisquam!
-                </div>
-
-            </div>
+            </section>
+            
             <button className="checkoutBtn">Checkout</button>
         </div>
+    </div>
     )
 }
 
