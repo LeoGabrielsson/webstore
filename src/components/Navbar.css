@@ -4,7 +4,6 @@ nav {
     align-items: center;
     background-color: var(--color-nav);
     padding-left: var(--gutter);
-    padding-left: var(--gutter);
 }
 
 h2 {
@@ -18,8 +17,9 @@ h2 {
 }
 
 .logo {
-    height: var(--size-step-5);
-    width: var(--size-step-5);
+    height: var(--size-step-6);
+    width: var(--size-step-6);
+    padding-right: 0;
 }
 
 .navItem {
@@ -31,14 +31,16 @@ h2 {
     height: var(--size-step-2);
 }
 
-.cart {
-    height: var(--size-step-2);
-    width: var(--size-step-2);
+.cartIcon {
+    height: var(--size-step-1);
+    width: var(--size-step-1);
 }
 
 .navBtns a {
     padding: var(--space-s);
-
+    text-decoration: none;
+    font-weight: bold;
+    
 }
 
 @media (max-width: 50rem) {

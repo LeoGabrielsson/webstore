@@ -1,11 +1,9 @@
-/*
-.mainSite {
+.storeSite {
     background-color: var(--color-accent);
     display: flex;
     justify-content: center;
     margin: 0;
 }
-*/
 
 .store {
     background-color: yellow;

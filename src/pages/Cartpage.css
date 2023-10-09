@@ -1,4 +1,4 @@
-.mainSite{
+.cartSite {
     display: flex;
     justify-content: center;
 }
@@ -9,12 +9,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+    min-height: 30.64rem;
 }
 
-.pInCart{
+.pInCart {
     display: flex;
     align-items: center;
-    
+
     border: 1px solid #ffffff;
     border-radius: 5px;
     overflow: hidden;
@@ -28,11 +33,6 @@
 
 .pImage {
     max-height: 20rem;
-}
-
-.pDetails {
-    padding: 10px;
-    text-align: center;
 }
 
 .pTitle {
@@ -72,7 +72,7 @@
     background-color: #0c1532;
 }
 
-.checkoutBtn{
+.checkoutBtn {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;

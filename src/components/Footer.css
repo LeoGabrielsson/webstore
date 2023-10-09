@@ -1,6 +1,28 @@
 footer {
     background-color: var(--color-foot);
-    left: 0;
-    bottom: 0;
     width: 100%;
+    color: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+
+    font-size: var(--size-step-0);
+    margin-left: var(--space-m);
+    margin-right: var(--space-m);
+
+}
+
+footer a{
+    color: var(--color-bg);
+}
+
+@media (max-width: 50rem) {
+    footer {
+        display: flex;
+        flex-direction: column;
+
+    }
 }

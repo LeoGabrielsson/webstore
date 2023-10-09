@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar">
             <div className='navMain'>
                 <Link to="/">
-                    <img className="navItem logo" src="/src/imgs/BnB.png" alt="Bark & Bowtie Logo" />
+                    <img className="logo" src="/src/imgs/BnB.png" alt="Bark & Bowtie Logo" />
                 </Link>
                 <h2 className='navItem title'>Bark & Bowtie</h2>
             </div>
@@ -19,7 +19,7 @@ function Navbar() {
             <div className='navItem navBtns'>
                 <Link to="/">Home</Link>
                 <Link to="/products">Products</Link>
-                <Link to="/your-cart"> <img className='cart' src="/src/imgs/BnB.png" alt="Shopping Cart Button" /> </Link>
+                <Link to="/your-cart"> <img className='cartIcon' src="/src/imgs/cart.png" alt="Shopping Cart Button" /> </Link>
             </div>
         </nav>
     )

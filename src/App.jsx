@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Homepage from './pages/Homepage.jsx'
 import Storepage from './pages/Storepage.jsx'
+import Cartpage from './pages/Cartpage.jsx'
 
 function App() {
 

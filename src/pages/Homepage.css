@@ -1,13 +1,28 @@
-/* .mainSite {} */
-
 .CTA {
-    height: 50rem;
+    height: 45rem;
     background-image: url("/src/imgs/hero.jpg");
-    background-size: clamp(50rem, 100rem, 100%);
+    background-size: clamp(50rem, 120rem, 100%);
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    color: var(--color-bg);
+    font-size: var(--size-step-1);
+
+}
+
+.CTAText {
+    -webkit-text-stroke: 1px var(--color-fg);
+}
+
+
+.CTABtn {
+    background-color: var(--color-bg);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -79,17 +94,18 @@
     background-color: #0c1532;
 }
 
-/* @media (max-width: 50rem) {
-    .bestProducts {
-        display: block;
-        color: aqua;
-    }
-} */
-
 @media (max-width: 50rem) {
     .bestProducts {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .CTA {
+        background-image: url("/src/imgs/heroAlt.jpg");
+        background-position-x: 35rem;
+        background-position-y: 60rem;
+
+        height: 25rem;
     }
 }
