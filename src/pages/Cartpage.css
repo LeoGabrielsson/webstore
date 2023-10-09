@@ -80,3 +80,10 @@
 
     font-size: medium;
 }
+
+@media (max-width: 559px) {
+    .cart {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

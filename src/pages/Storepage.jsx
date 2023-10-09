@@ -9,7 +9,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -19,7 +19,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -29,7 +29,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -39,7 +39,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -49,7 +49,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -59,7 +59,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -69,7 +69,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -79,7 +79,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -89,7 +89,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -99,7 +99,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -109,7 +109,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>
@@ -119,7 +119,7 @@ function Storepage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </section>

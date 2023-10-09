@@ -9,7 +9,7 @@ function Cartpage() {
                     <div className="pDetails">
                         <h4 className="pTitle">Product Name</h4>
                         <p className="pDescription">Product description</p>
-                        <p className="pPrice">$99.99</p>
+                        <p className="pPrice">$34.99</p>
                         <button className="siteButton">Remove Item</button>
                     </div>
                 </section>
