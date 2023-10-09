@@ -1,13 +1,5 @@
-Grafiskt tema   ¤
+Sökfunktion
 
-Logga           ¤
+Fixa footern
 
-Sökfunktion     ?
-
-CTA             ¤
-
-Products        ¤
-
-Shopping cart   ¤
-
-Contact         ¤
+Cartpage bakgrund

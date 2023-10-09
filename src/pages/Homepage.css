@@ -33,6 +33,11 @@
     margin: 0;
 }
 
+.infoText {
+    text-align: center;
+
+}
+
 /* Product styles */
 .pCard {
     display: flex;
