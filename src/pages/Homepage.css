@@ -94,7 +94,14 @@
     background-color: #0c1532;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 1080px) {
+    .CTA {
+        height: 25rem;
+    }
+
+}
+
+@media (max-width: 560px) {
     .bestProducts {
         display: flex;
         flex-direction: column;
