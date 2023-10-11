@@ -16,7 +16,7 @@ function Homepage() {
 
                 <div className="bestProducts">
                     <section className="pCard">
-                        <img className="pImage" src="src/imgs/phIMG.jpg" alt="Product Name" />
+                        <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
                         <div className="pDetails">
                             <h4 className="pTitle">Product Name</h4>
                             <p className="pDescription">Product description</p>
@@ -26,7 +26,7 @@ function Homepage() {
                     </section>
 
                     <section className="pCard">
-                        <img className="pImage" src="src/imgs/phIMG.jpg" alt="Product Name" />
+                        <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
                         <div className="pDetails">
                             <h4 className="pTitle">Product Name</h4>
                             <p className="pDescription">Product description</p>
@@ -36,7 +36,7 @@ function Homepage() {
                     </section>
 
                     <section className="pCard">
-                        <img className="pImage" src="src/imgs/phIMG.jpg" alt="Product Name" />
+                        <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
                         <div className="pDetails">
                             <h4 className="pTitle">Product Name</h4>
                             <p className="pDescription">Product description</p>
@@ -46,7 +46,7 @@ function Homepage() {
                     </section>
 
                     <section className="pCard">
-                        <img className="pImage" src="src/imgs/phIMG.jpg" alt="Product Name" />
+                        <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
                         <div className="pDetails">
                             <h4 className="pTitle">Product Name</h4>
                             <p className="pDescription">Product description</p>
@@ -56,7 +56,7 @@ function Homepage() {
                     </section>
 
                     <section className="pCard">
-                        <img className="pImage" src="src/imgs/phIMG.jpg" alt="Product Name" />
+                        <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
                         <div className="pDetails">
                             <h4 className="pTitle">Product Name</h4>
                             <p className="pDescription">Product description</p>
