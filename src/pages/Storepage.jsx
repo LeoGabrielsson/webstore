@@ -1,130 +1,47 @@
+import { useEffect, useState } from "react";
 import "./Storepage.css"
+import "../components/ProductCard.jsx"
 
 function Storepage() {
+    const [products, setProducts] = useState([])
+
+    async function fetchProducts() {
+        await fetch(`http://localhost:3000/product`)
+            .then(res => res.json())
+            .then(result => {
+                console.log(result)
+                setProducts(result.data)
+            }).catch(err => {
+                console.log(err)
+            });
+    }
+
+
+    useEffect(() => {
+        fetchProducts()
+    }, [])
+
     return (
         <div className='storeSite'>
             <div className="store">
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
-
-                <section className="pCard">
-                    <img className="pImage" src="/src/imgs/phIMG.jpg" alt="Product Name" />
-                    <div className="pDetails">
-                        <h4 className="pTitle">Product Name</h4>
-                        <p className="pDescription">Product description</p>
-                        <p className="pPrice">$34.99</p>
-                        <button className="add-to-cart">Add to Cart</button>
-                    </div>
-                </section>
+                <ul>
+                    {products.length > 0 ? (
+                        <>
+                            {products.map((item) => (
+                                <ProductCard
+                                    key={item.id}
+                                    id={item.id}
+                                    img={item.image}
+                                    name={item.name}
+                                    price={item.price}
+                                />
+                            ))}
+                        </>
+                    ) :
+                        <p>Problem loading products...</p>
+                    }
+                </ul>
             </div>
-
         </div>
     )
 }
