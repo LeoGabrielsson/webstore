@@ -29,7 +29,9 @@ h2 {
 
 .searchComps {
     display: flex;
-    height: var(--size-step-2);
+    height: var(--size-step-3);
+    width: var(--size-step-6);
+    font-size: var(--size-step-6);
 }
 
 .cartIcon {
